@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>  
+    <header>
+      <h1>Rock Paper Scissors Game</h1> 
+    </header>
+    
+    <div class="score-board">
+      <div id="user-label" class="badge">Player</div>
+      <div id="score-display">
+          <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+      <div id="comp-label" class="badge">Computer</div>
+    </div>
+
+    <div class="result">
+      <p>Select Rock, Paper, or Scissors to play!</p>
+    </div>    
+
+    <div class="choices">
+      <h2 id="comp-banner">Computer Choice</h2>
+      <div class="comp-choice" >
+        <img id="comp-r" src="images/rock.jpg" alt="rock missing">
+      </div>
+      <div class="comp-choice" >
+        <img id="comp-p" src="images/paper.jpg" alt="paper missing">
+      </div>
+      <div class="comp-choice" >
+        <img id="comp-s" src="images/scissors.jpg" alt="scissors missing">
+      </div>
+    </div>
+
+      <div class="choices">
+        <h2 id="player-banner">Player Choice</h2>
+        <div class="choice" id="r">
+          <img src="images/rock.jpg" alt="rock missing">
+        </div>
+        <div class="choice" id="p">
+          <img src="images/paper.jpg" alt="paper missing">
+        </div>
+        <div class="choice" id="s">
+          <img src="images/scissors.jpg" alt="scissors missing">
+        </div>
+      </div>
+
+        <form>        
+          <button type="button" id="reset-button">Reset Game</button>
+        </form>
+    
+
+    <footer>
+      Images by <a href="https://thenounproject.com/StudioFibonacci/">Studio Fibonacci</a> at the <a href="https://thenounproject.com/">Noun Project</a>
+    </footer>   
+    
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
